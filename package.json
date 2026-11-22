@@ -1,0 +1,14 @@
+{
+	"name": "ghost-to-emdash",
+	"version": "1.0.0",
+	"description": "Scripts pour migrer un site Ghost vers EmDash (Astro)",
+	"type": "module",
+	"private": true,
+	"license": "MIT",
+	"engines": { "node": ">=22" },
+	"dependencies": {
+		"@emdash-cms/gutenberg-to-portable-text": "^1.5.0",
+		"dom-serializer": "^3.1.1",
+		"htmlparser2": "^12.0.0"
+	}
+}

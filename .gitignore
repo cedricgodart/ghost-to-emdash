@@ -1,0 +1,6 @@
+node_modules
+# Exports et fichiers de travail : ne jamais les publier
+*.json
+!package.json
+.env
+.env.*
